@@ -4,14 +4,16 @@
     <div class="grid grid-rows-4 grid-flow-col gap-12">
       <div v-for="product in products" :key="product.id"
         class="shop-item shadow hover:shadow-lg transition cursor-pointer">
-        <img 
-          :src="`http://localhost:1337${product.image.formats.medium.url}`"
-          class="mb-2"
-          alt="">
-        <h2 class="text-teal-700 text-lg font-bold px-4 pt-2">{{ product.name }}</h2>
-        <span class="price text-2xl block px-4 pb-4">
-          € {{ product.price }}
-        </span>
+        <router-link :to="{ name: 'productDetails', params: { product_name: product.name }}">
+          <img 
+            :src="`http://localhost:1337${product.image.formats.medium.url}`"
+            class="mb-2"
+            alt="">
+          <h2 class="text-teal-700 text-lg font-bold px-4 pt-2">{{ product.name }}</h2>
+          <span class="price text-2xl block px-4 pb-4">
+            € {{ product.price }}
+          </span>
+        </router-link>
       </div>
     </div>
   </div>
@@ -25,6 +27,9 @@ export default {
     return {
       products: null
     }
+  },
+  props: {
+    product: Object
   },
   mounted () {
     axios
