@@ -1,7 +1,7 @@
 <template>
   <div class="products container mx-auto mt-20">
     <featured-products :products="products" class="mb-8" /> 
-    <recently-viewed-products :products="recentlyViewedProducts"/>
+    <recently-viewed-products :products="recentlyViewedProducts" />
   </div>
 </template>
 
@@ -25,16 +25,7 @@ export default {
   components: {
     FeaturedProducts,
     RecentlyViewedProducts
-  },
-  watch: {
-    recentlyViewedProducts: {
-      handler() {
-        console.log('recentlyViewedProducts changed!');
-        localStorage.setItem('recentlyViewedProducts', JSON.stringify(this.recentlyViewedProducts));
-      },
-      deep: true,
-    },
-  },
+  }
 };
 </script>
 

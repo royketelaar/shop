@@ -12,58 +12,57 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 
 export default {
-  props: ['product_id'],
-  data () {
+  props: ["product_id"],
+  data() {
     return {
       product: null,
-      recentlyViewedProducts: []
-    }
+      recentlyViewedProducts: [],
+    };
   },
   mounted() {
-    if (localStorage.getItem('recentlyViewedProducts')) {
+    if (localStorage.getItem("recentlyViewedProducts")) {
       try {
-        this.recentlyViewedProducts = JSON.parse(localStorage.getItem('recentlyViewedProducts'));
-      } catch(e) {
-        localStorage.removeItem('recentlyViewedProducts');
+        this.recentlyViewedProducts = JSON.parse(
+          localStorage.getItem("recentlyViewedProducts")
+        );
+      } catch (e) {
+        localStorage.removeItem("recentlyViewedProducts");
       }
     }
     axios
-      .get('http://localhost:1337/Products/' + this.product_id)
-      .then(response => {
+      .get("http://localhost:1337/Products/" + this.product_id)
+      .then((response) => {
         this.product = response.data;
         this.$nextTick(() => {
           this.addRecentlyViewedProduct();
-        })
-      })
+        });
+      });
   },
   methods: {
     addRecentlyViewedProduct() {
       let exists = false;
-        this.recentlyViewedProducts.map((product) => {
-          if(product.id === this.product.id) {
-            exists = true
-          }
-        });
-        if(!exists) {
-          this.recentlyViewedProducts.push(this.product);
-          if(this.recentlyViewedProducts.length > 5) {
-            this.recentlyViewedProducts = this.recentlyViewedProducts.slice(-5)
-          }
-          this.saveRecentlyViewedProducts();
+      this.recentlyViewedProducts.map((product) => {
+        if (product.id === this.product.id) {
+          exists = true;
         }
+      });
+      if (!exists) {
+        this.recentlyViewedProducts.push(this.product);
+        if (this.recentlyViewedProducts.length > 5) {
+          this.recentlyViewedProducts = this.recentlyViewedProducts.slice(-5);
+        }
+        this.saveRecentlyViewedProducts();
+      }
     },
     saveRecentlyViewedProducts() {
       const parsed = JSON.stringify(this.recentlyViewedProducts);
-      localStorage.setItem('recentlyViewedProducts', parsed);
+      localStorage.setItem("recentlyViewedProducts", parsed);
     }
   }
-}
-
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

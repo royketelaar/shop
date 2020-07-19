@@ -1,9 +1,14 @@
 <template>
-  <div>
+  <div v-if="recentlyViewedProducts" class="recently-viewed">
     <h2 class="text-2xl font-bold mb-8">Recently viewed</h2>
-    <div v-for="product in recentlyViewedProducts" :key="product.id"
-      class="shop-item shadow hover:shadow-lg transition cursor-pointer">
-      <product-card :product="product" />
+    <div class="grid grid-rows-1 grid-flow-col gap-6">
+      <div
+        v-for="product in recentlyViewedProducts"
+        :key="product.id"
+        class="shop-item shadow hover:shadow-lg transition cursor-pointer"
+      >
+        <product-card :product="product" />
+      </div>
     </div>
   </div>
 </template>
@@ -12,11 +17,11 @@
 import ProductCard from "@/components/ProductCard.vue";
 
 export default {
-  data () {
+  data() {
     return {
       recentlyViewedProducts: [],
-      name: 'RecentlyViewedProducts'
-    }
+      name: "RecentlyViewedProducts",
+    };
   },
   mounted() {
     if (localStorage.getItem("recentlyViewedProducts")) {
@@ -30,9 +35,15 @@ export default {
     }
   },
   components: {
-    ProductCard
-  }
+    ProductCard,
+  },
 };
 </script>
 
-<style></style>
+<style lang="scss">
+  .recently-viewed {
+    img {
+      height: 220px !important;
+    }
+  }
+</style>
