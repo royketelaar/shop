@@ -19,15 +19,13 @@ export default {
   data() {
     return {
       product: null,
-      recentlyViewedProducts: [],
+      recentlyViewedProducts: []
     };
   },
   mounted() {
     if (localStorage.getItem("recentlyViewedProducts")) {
       try {
-        this.recentlyViewedProducts = JSON.parse(
-          localStorage.getItem("recentlyViewedProducts")
-        );
+        this.recentlyViewedProducts = JSON.parse(localStorage.getItem("recentlyViewedProducts"));
       } catch (e) {
         localStorage.removeItem("recentlyViewedProducts");
       }

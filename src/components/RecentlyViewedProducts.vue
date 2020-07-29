@@ -1,11 +1,11 @@
 <template>
   <div v-if="recentlyViewedProducts" class="recently-viewed">
     <h2 class="text-2xl font-bold mb-8">Recently viewed</h2>
-    <div class="grid grid-rows-1 grid-flow-col gap-6">
+    <div class="flex -mx-4">
       <div
         v-for="product in recentlyViewedProducts"
         :key="product.id"
-        class="shop-item shadow hover:shadow-lg transition cursor-pointer"
+        class="shop-item shadow hover:shadow-lg transition cursor-pointer w-1/5 mx-4"
       >
         <product-card :product="product" />
       </div>
