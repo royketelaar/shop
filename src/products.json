@@ -1,0 +1,830 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "description": "An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today.",
+    "quantity": 0,
+    "price": 0.29,
+    "created_at": "2020-06-24T14:59:48.882Z",
+    "updated_at": "2020-08-05T08:37:54.686Z",
+    "image": {
+      "id": 1,
+      "name": "apple",
+      "alternativeText": "",
+      "caption": "",
+      "width": 8256,
+      "height": 5504,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_apple_3b2c6e2a5f",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 8.73,
+          "path": null,
+          "url": "/uploads/thumbnail_apple_3b2c6e2a5f.jpeg"
+        },
+        "large": {
+          "hash": "large_apple_3b2c6e2a5f",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "size": 75.01,
+          "path": null,
+          "url": "/uploads/large_apple_3b2c6e2a5f.jpeg"
+        },
+        "medium": {
+          "hash": "medium_apple_3b2c6e2a5f",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 500,
+          "size": 49.73,
+          "path": null,
+          "url": "/uploads/medium_apple_3b2c6e2a5f.jpeg"
+        },
+        "small": {
+          "hash": "small_apple_3b2c6e2a5f",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 333,
+          "size": 27.31,
+          "path": null,
+          "url": "/uploads/small_apple_3b2c6e2a5f.jpeg"
+        }
+      },
+      "hash": "apple_3b2c6e2a5f",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 2835.72,
+      "url": "/uploads/apple_3b2c6e2a5f.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T14:59:22.624Z",
+      "updated_at": "2020-06-24T14:59:22.624Z"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Watermelon",
+    "description": "Watermelon is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties. Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae.",
+    "quantity": 0,
+    "price": 0.49,
+    "created_at": "2020-06-24T15:00:59.393Z",
+    "updated_at": "2020-08-05T08:35:11.328Z",
+    "image": {
+      "id": 12,
+      "name": "watermelon",
+      "alternativeText": "",
+      "caption": "",
+      "width": 4000,
+      "height": 6000,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_watermelon_60cd913a2a",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 104,
+          "height": 156,
+          "size": 6.76,
+          "path": null,
+          "url": "/uploads/thumbnail_watermelon_60cd913a2a.jpeg"
+        },
+        "large": {
+          "hash": "large_watermelon_60cd913a2a",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 667,
+          "height": 1000,
+          "size": 143.07,
+          "path": null,
+          "url": "/uploads/large_watermelon_60cd913a2a.jpeg"
+        },
+        "medium": {
+          "hash": "medium_watermelon_60cd913a2a",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 750,
+          "size": 89.92,
+          "path": null,
+          "url": "/uploads/medium_watermelon_60cd913a2a.jpeg"
+        },
+        "small": {
+          "hash": "small_watermelon_60cd913a2a",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 333,
+          "height": 500,
+          "size": 46.55,
+          "path": null,
+          "url": "/uploads/small_watermelon_60cd913a2a.jpeg"
+        }
+      },
+      "hash": "watermelon_60cd913a2a",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 2324.18,
+      "url": "/uploads/watermelon_60cd913a2a.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:26.739Z",
+      "updated_at": "2020-06-24T15:00:26.739Z"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Lemon",
+    "description": "The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.",
+    "quantity": 0,
+    "price": 0.09,
+    "created_at": "2020-06-24T15:01:19.453Z",
+    "updated_at": "2020-08-05T08:35:20.948Z",
+    "image": {
+      "id": 11,
+      "name": "lemon",
+      "alternativeText": "",
+      "caption": "",
+      "width": 6000,
+      "height": 4000,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_lemon_789ed6e241",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 9.34,
+          "path": null,
+          "url": "/uploads/thumbnail_lemon_789ed6e241.jpeg"
+        },
+        "large": {
+          "hash": "large_lemon_789ed6e241",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "size": 98.39,
+          "path": null,
+          "url": "/uploads/large_lemon_789ed6e241.jpeg"
+        },
+        "medium": {
+          "hash": "medium_lemon_789ed6e241",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 500,
+          "size": 62.38,
+          "path": null,
+          "url": "/uploads/medium_lemon_789ed6e241.jpeg"
+        },
+        "small": {
+          "hash": "small_lemon_789ed6e241",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 333,
+          "size": 32.52,
+          "path": null,
+          "url": "/uploads/small_lemon_789ed6e241.jpeg"
+        }
+      },
+      "hash": "lemon_789ed6e241",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 1578.23,
+      "url": "/uploads/lemon_789ed6e241.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:26.164Z",
+      "updated_at": "2020-06-24T15:00:26.164Z"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Pineapple",
+    "description": "The pineapple is a tropical plant with an edible fruit and the most economically significant plant in the family Bromeliaceae. The pineapple is indigenous to South America, where it has been cultivated for many centuries.",
+    "quantity": 0,
+    "price": 0.15,
+    "created_at": "2020-06-24T15:01:42.406Z",
+    "updated_at": "2020-08-05T08:35:26.294Z",
+    "image": {
+      "id": 10,
+      "name": "pineapple",
+      "alternativeText": "",
+      "caption": "",
+      "width": 2749,
+      "height": 4124,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_pineapple_e5a678a5bd",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 104,
+          "height": 156,
+          "size": 3.24,
+          "path": null,
+          "url": "/uploads/thumbnail_pineapple_e5a678a5bd.jpeg"
+        },
+        "large": {
+          "hash": "large_pineapple_e5a678a5bd",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 667,
+          "height": 1000,
+          "size": 62.07,
+          "path": null,
+          "url": "/uploads/large_pineapple_e5a678a5bd.jpeg"
+        },
+        "medium": {
+          "hash": "medium_pineapple_e5a678a5bd",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 750,
+          "size": 39.32,
+          "path": null,
+          "url": "/uploads/medium_pineapple_e5a678a5bd.jpeg"
+        },
+        "small": {
+          "hash": "small_pineapple_e5a678a5bd",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 333,
+          "height": 500,
+          "size": 19.8,
+          "path": null,
+          "url": "/uploads/small_pineapple_e5a678a5bd.jpeg"
+        }
+      },
+      "hash": "pineapple_e5a678a5bd",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 637.7,
+      "url": "/uploads/pineapple_e5a678a5bd.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:26.075Z",
+      "updated_at": "2020-06-24T15:00:26.075Z"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Mandarin",
+    "description": "The mandarin orange, also known as the mandarin or mandarine, is a small citrus tree with fruit resembling other oranges, usually eaten plain or in fruit salads. The tangerine is a group of orange-coloured citrus fruit consisting of hybrids of mandarin orange.",
+    "quantity": 0,
+    "price": 0.59,
+    "created_at": "2020-06-24T15:02:19.249Z",
+    "updated_at": "2020-08-05T08:35:32.749Z",
+    "image": {
+      "id": 9,
+      "name": "mandarin",
+      "alternativeText": "",
+      "caption": "",
+      "width": 2848,
+      "height": 4272,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_mandarin_efbe65fc70",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 104,
+          "height": 156,
+          "size": 2.81,
+          "path": null,
+          "url": "/uploads/thumbnail_mandarin_efbe65fc70.jpeg"
+        },
+        "large": {
+          "hash": "large_mandarin_efbe65fc70",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 667,
+          "height": 1000,
+          "size": 49.94,
+          "path": null,
+          "url": "/uploads/large_mandarin_efbe65fc70.jpeg"
+        },
+        "medium": {
+          "hash": "medium_mandarin_efbe65fc70",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 750,
+          "size": 31.46,
+          "path": null,
+          "url": "/uploads/medium_mandarin_efbe65fc70.jpeg"
+        },
+        "small": {
+          "hash": "small_mandarin_efbe65fc70",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 333,
+          "height": 500,
+          "size": 16.07,
+          "path": null,
+          "url": "/uploads/small_mandarin_efbe65fc70.jpeg"
+        }
+      },
+      "hash": "mandarin_efbe65fc70",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 753.35,
+      "url": "/uploads/mandarin_efbe65fc70.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:26.043Z",
+      "updated_at": "2020-06-24T15:00:26.043Z"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Orange",
+    "description": "The orange is the fruit of various citrus species in the family Rutaceae; it primarily refers to Citrus × sinensis, which is also called sweet orange, to distinguish it from the related Citrus × aurantium, referred to as bitter orange.",
+    "quantity": 0,
+    "price": 0.39,
+    "created_at": "2020-06-24T15:02:38.260Z",
+    "updated_at": "2020-08-05T08:35:40.571Z",
+    "image": {
+      "id": 8,
+      "name": "orange",
+      "alternativeText": "",
+      "caption": "",
+      "width": 2000,
+      "height": 3000,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_orange_3c9168bd56",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 104,
+          "height": 156,
+          "size": 4.97,
+          "path": null,
+          "url": "/uploads/thumbnail_orange_3c9168bd56.jpeg"
+        },
+        "large": {
+          "hash": "large_orange_3c9168bd56",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 667,
+          "height": 1000,
+          "size": 112.04,
+          "path": null,
+          "url": "/uploads/large_orange_3c9168bd56.jpeg"
+        },
+        "medium": {
+          "hash": "medium_orange_3c9168bd56",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 750,
+          "size": 69.64,
+          "path": null,
+          "url": "/uploads/medium_orange_3c9168bd56.jpeg"
+        },
+        "small": {
+          "hash": "small_orange_3c9168bd56",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 333,
+          "height": 500,
+          "size": 34.64,
+          "path": null,
+          "url": "/uploads/small_orange_3c9168bd56.jpeg"
+        }
+      },
+      "hash": "orange_3c9168bd56",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 672.62,
+      "url": "/uploads/orange_3c9168bd56.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:25.971Z",
+      "updated_at": "2020-06-24T15:00:25.971Z"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Feijoa",
+    "description": "Acca sellowiana – a species of flowering plant in the myrtle family, Myrtaceae – is native to the highlands of southern Brazil, eastern Paraguay, Uruguay, northern Argentina, and Colombia. It is widely cultivated as an ornamental tree and for its fruit.",
+    "quantity": 0,
+    "price": 0.29,
+    "created_at": "2020-06-24T15:03:01.270Z",
+    "updated_at": "2020-08-05T08:35:45.606Z",
+    "image": {
+      "id": 7,
+      "name": "feijoa",
+      "alternativeText": "",
+      "caption": "",
+      "width": 4864,
+      "height": 3648,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_feijoa_7298596933",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 208,
+          "height": 156,
+          "size": 11.15,
+          "path": null,
+          "url": "/uploads/thumbnail_feijoa_7298596933.jpeg"
+        },
+        "large": {
+          "hash": "large_feijoa_7298596933",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 750,
+          "size": 149.61,
+          "path": null,
+          "url": "/uploads/large_feijoa_7298596933.jpeg"
+        },
+        "medium": {
+          "hash": "medium_feijoa_7298596933",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 563,
+          "size": 96.1,
+          "path": null,
+          "url": "/uploads/medium_feijoa_7298596933.jpeg"
+        },
+        "small": {
+          "hash": "small_feijoa_7298596933",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 375,
+          "size": 48.19,
+          "path": null,
+          "url": "/uploads/small_feijoa_7298596933.jpeg"
+        }
+      },
+      "hash": "feijoa_7298596933",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 2165.37,
+      "url": "/uploads/feijoa_7298596933.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:25.891Z",
+      "updated_at": "2020-06-24T15:00:25.891Z"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Guava",
+    "description": "Guava is a common tropical fruit cultivated in many tropical and subtropical regions. Psidium guajava is a small tree in the myrtle family, native to Mexico, Central America, the Caribbean and northern South America.",
+    "quantity": 0,
+    "price": 0.19,
+    "created_at": "2020-06-24T15:03:20.304Z",
+    "updated_at": "2020-08-05T08:35:50.472Z",
+    "image": {
+      "id": 6,
+      "name": "guava",
+      "alternativeText": "",
+      "caption": "",
+      "width": 6000,
+      "height": 4000,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_guava_12895cb7cc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 2.81,
+          "path": null,
+          "url": "/uploads/thumbnail_guava_12895cb7cc.jpeg"
+        },
+        "large": {
+          "hash": "large_guava_12895cb7cc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "size": 26.42,
+          "path": null,
+          "url": "/uploads/large_guava_12895cb7cc.jpeg"
+        },
+        "medium": {
+          "hash": "medium_guava_12895cb7cc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 500,
+          "size": 16.09,
+          "path": null,
+          "url": "/uploads/medium_guava_12895cb7cc.jpeg"
+        },
+        "small": {
+          "hash": "small_guava_12895cb7cc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 333,
+          "size": 8.47,
+          "path": null,
+          "url": "/uploads/small_guava_12895cb7cc.jpeg"
+        }
+      },
+      "hash": "guava_12895cb7cc",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 608.32,
+      "url": "/uploads/guava_12895cb7cc.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:25.391Z",
+      "updated_at": "2020-06-24T15:00:25.391Z"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Banana",
+    "description": "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called \"plantains\", distinguishing them from dessert bananas.",
+    "quantity": 0,
+    "price": 0.29,
+    "created_at": "2020-06-24T15:03:45.469Z",
+    "updated_at": "2020-08-05T08:36:01.706Z",
+    "image": {
+      "id": 5,
+      "name": "banana",
+      "alternativeText": "",
+      "caption": "",
+      "width": 5827,
+      "height": 3602,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_banana_beba5da423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 245,
+          "height": 151,
+          "size": 1.96,
+          "path": null,
+          "url": "/uploads/thumbnail_banana_beba5da423.jpeg"
+        },
+        "large": {
+          "hash": "large_banana_beba5da423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 618,
+          "size": 11.97,
+          "path": null,
+          "url": "/uploads/large_banana_beba5da423.jpeg"
+        },
+        "medium": {
+          "hash": "medium_banana_beba5da423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 464,
+          "size": 8.04,
+          "path": null,
+          "url": "/uploads/medium_banana_beba5da423.jpeg"
+        },
+        "small": {
+          "hash": "small_banana_beba5da423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 309,
+          "size": 4.66,
+          "path": null,
+          "url": "/uploads/small_banana_beba5da423.jpeg"
+        }
+      },
+      "hash": "banana_beba5da423",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 260.79,
+      "url": "/uploads/banana_beba5da423.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:25.078Z",
+      "updated_at": "2020-06-24T15:00:25.078Z"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kiwi",
+    "description": "Kiwifruit, or Chinese gooseberry, is the edible berry of several species of woody vines in the genus Actinidia. The most common cultivar group of kiwifruit is oval, about the size of a large hen's egg: 5–8 centimetres in length and 4.5–5.5 cm in diameter.",
+    "quantity": 0,
+    "price": 0.89,
+    "created_at": "2020-06-24T15:04:08.490Z",
+    "updated_at": "2020-08-05T08:36:08.766Z",
+    "image": {
+      "id": 4,
+      "name": "kiwi",
+      "alternativeText": "",
+      "caption": "",
+      "width": 3888,
+      "height": 2592,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_kiwi_4ceb917ebc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 6.14,
+          "path": null,
+          "url": "/uploads/thumbnail_kiwi_4ceb917ebc.jpeg"
+        },
+        "large": {
+          "hash": "large_kiwi_4ceb917ebc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "size": 93.53,
+          "path": null,
+          "url": "/uploads/large_kiwi_4ceb917ebc.jpeg"
+        },
+        "medium": {
+          "hash": "medium_kiwi_4ceb917ebc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 500,
+          "size": 52.49,
+          "path": null,
+          "url": "/uploads/medium_kiwi_4ceb917ebc.jpeg"
+        },
+        "small": {
+          "hash": "small_kiwi_4ceb917ebc",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 333,
+          "size": 24.36,
+          "path": null,
+          "url": "/uploads/small_kiwi_4ceb917ebc.jpeg"
+        }
+      },
+      "hash": "kiwi_4ceb917ebc",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 1129.58,
+      "url": "/uploads/kiwi_4ceb917ebc.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:25.027Z",
+      "updated_at": "2020-06-24T15:00:25.027Z"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Blackberry",
+    "description": "The blackberry is an edible fruit produced by many species in the genus Rubus in the family Rosaceae, hybrids among these species within the subgenus Rubus, and hybrids between the subgenera Rubus and Idaeobatus. ",
+    "quantity": 0,
+    "price": 0.01,
+    "created_at": "2020-06-24T15:04:41.466Z",
+    "updated_at": "2020-08-05T08:36:13.067Z",
+    "image": {
+      "id": 3,
+      "name": "blackberry",
+      "alternativeText": "",
+      "caption": "",
+      "width": 2500,
+      "height": 1662,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_blackberry_546187b821",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 235,
+          "height": 156,
+          "size": 12.64,
+          "path": null,
+          "url": "/uploads/thumbnail_blackberry_546187b821.jpeg"
+        },
+        "large": {
+          "hash": "large_blackberry_546187b821",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 665,
+          "size": 144.11,
+          "path": null,
+          "url": "/uploads/large_blackberry_546187b821.jpeg"
+        },
+        "medium": {
+          "hash": "medium_blackberry_546187b821",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 499,
+          "size": 90.25,
+          "path": null,
+          "url": "/uploads/medium_blackberry_546187b821.jpeg"
+        },
+        "small": {
+          "hash": "small_blackberry_546187b821",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 332,
+          "size": 46.4,
+          "path": null,
+          "url": "/uploads/small_blackberry_546187b821.jpeg"
+        }
+      },
+      "hash": "blackberry_546187b821",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 787.23,
+      "url": "/uploads/blackberry_546187b821.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:24.805Z",
+      "updated_at": "2020-06-24T15:00:24.805Z"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Avocado",
+    "description": "The avocado, a tree likely originating from south-central Mexico, is classified as a member of the flowering plant family Lauraceae. The fruit of the plant, also called an avocado, is botanically a large berry containing a single large seed.",
+    "quantity": 0,
+    "price": 1.29,
+    "created_at": "2020-06-24T15:05:15.519Z",
+    "updated_at": "2020-08-05T08:36:20.210Z",
+    "image": {
+      "id": 2,
+      "name": "avocado",
+      "alternativeText": "",
+      "caption": "",
+      "width": 3000,
+      "height": 2000,
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_avocado_35a73df215",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 6.97,
+          "path": null,
+          "url": "/uploads/thumbnail_avocado_35a73df215.jpeg"
+        },
+        "large": {
+          "hash": "large_avocado_35a73df215",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "size": 67.49,
+          "path": null,
+          "url": "/uploads/large_avocado_35a73df215.jpeg"
+        },
+        "medium": {
+          "hash": "medium_avocado_35a73df215",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 500,
+          "size": 41.66,
+          "path": null,
+          "url": "/uploads/medium_avocado_35a73df215.jpeg"
+        },
+        "small": {
+          "hash": "small_avocado_35a73df215",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 333,
+          "size": 21.65,
+          "path": null,
+          "url": "/uploads/small_avocado_35a73df215.jpeg"
+        }
+      },
+      "hash": "avocado_35a73df215",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 530.93,
+      "url": "/uploads/avocado_35a73df215.jpeg",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2020-06-24T15:00:24.768Z",
+      "updated_at": "2020-06-24T15:00:24.768Z"
+    }
+  }
+]
