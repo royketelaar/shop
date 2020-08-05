@@ -1,12 +1,52 @@
 <template>
   <div class="cart container mx-auto mt-20">
     <h1 class="text-4xl font-bold mb-8">Cart</h1>
-    <table v-for="product in cart" :key="product.id">
-      <tr>
-        <td>{{ product.name }}</td>
-        <td>{{ product.quantity }}</td>
-      </tr>
+    <table class="table-auto w-full text-left">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th class="text-right">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="product in cart" :key="product.id">
+          <td>
+            <img
+              :src="`http://localhost:1337${product.image.formats.medium.url}`"
+              class=""
+              alt=""
+            />
+          </td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.quantity }}
+            <button :click="increment(product)">Add</button>
+            <button :click="decrement(product)">Remove</button>
+            </td>
+          <td class="text-right">{{ product.price * product.quantity }}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="text-right">Subtotal: € {{ subTotal.toFixed(2) }}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="text-right">Taxes: € {{ taxes.toFixed(2) }}</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="text-right font-bold">Total: € {{ total.toFixed(2) }}</td>
+        </tr>
+      </tbody>
     </table>
+    
   </div>
 </template>
 
@@ -24,11 +64,42 @@ export default {
   methods: {
     getCart() {
       this.cart = JSON.parse(localStorage.getItem("cart"));
+    },
+    increment(product) {
+      this.$store.dispatch('increment', product.id)
+    },
+    decrement(product) {
+      this.$store.dispatch('decrement', product.id)
+    },
+  },
+  computed: {
+    // cart() {
+    //   return console.log(this.$store.state.cart);
+    // },
+    subTotal() {
+      return this.cart.reduce((sum, {price, quantity }) => sum + price * quantity, 0)
+    },
+    taxes() {
+      return (this.subTotal * 0.21)
+    },
+    total() {
+      return this.subTotal + this.taxes
     }
   }
 }
+
 </script>
 
-<style>
+<style lang="scss" scoped>
+  td, th {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+  }
+  img {
+    border-radius: 8px;
+    height: 75px;
+    width: 100px;
+    object-fit: cover;
+  }
 
 </style>

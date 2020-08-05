@@ -1,7 +1,7 @@
 <template>
   <div class="products container mx-auto mt-20">
     <featured-products :products="products" class="mb-8" /> 
-    <recently-viewed-products :products="recentlyViewedProducts" />
+    <recently-viewed-products />
   </div>
 </template>
 
@@ -14,7 +14,6 @@ export default {
   data () {
     return {
       products: null,
-      recentlyViewedProducts: null
     }
   },
   mounted () {

@@ -19,7 +19,7 @@ import ProductCard from "@/components/ProductCard.vue";
 export default {
   data() {
     return {
-      recentlyViewedProducts: [],
+      recentlyViewedProducts: null,
       name: "RecentlyViewedProducts",
     };
   },

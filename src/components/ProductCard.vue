@@ -48,32 +48,40 @@ export default {
   },
   methods: {
     addToCart() {
-      // Getting cart from localstorage
-      this.cart = JSON.parse(localStorage.getItem("cart"));
+
+      this.$store.dispatch('addToCart', this.product)
+
+      // // Getting cart from localstorage
+      // this.cart = JSON.parse(localStorage.getItem("cart"));
       
-      // Adding item to cart, or adding quantity if it already exists
-      let exists = false;
-      if (this.cart == null) {
-        // Add empty cart and add current product if cart doesn't exist
-        const parsed = JSON.stringify(this.cart = []);
-        localStorage.setItem("cart", parsed);
-        this.cart.push(this.product);
-      } else {
-        // Loop trough products in cart and add quantity if it's already there
-        this.cart.map((product) => {
-          if (product.id === this.product.id) {
-            exists = true;
-            product.quantity++;
-          }
-        });
-        // If it doesn't exist yet, just add to cart
-        if (!exists) {
-          this.cart.push(this.product);
-        }
-      }
+      // // Adding item to cart, or adding quantity if it already exists
+      // let exists = false;
+      // if (this.cart == null) {
+      //   // Add empty cart and add current product if cart doesn't exist
+      //   const parsed = JSON.stringify(this.cart = []);
+      //   localStorage.setItem("cart", parsed);
+      //   this.product.quantity++
+      //   this.cart.push(this.product);
+      // } else {
+      //   // Loop trough products in cart and add quantity if it's already there
+      //   this.cart.map((product) => {
+      //     if (product.id === this.product.id) {
+      //       exists = true;
+      //       product.quantity++;
+      //     }
+      //   });
+      //   // If it doesn't exist yet, just add to cart
+      //   if (!exists) {
+      //     this.product.quantity++;
+      //     this.cart.push(this.product);
+      //   }
+      // }
 
       // Saving local object to localstorage
       this.saveCart();
+    },
+    increment() {
+      this.$store.dispatch('increment', this.product.id)
     },
     saveCart() {
       const parsed = JSON.stringify(this.cart);
