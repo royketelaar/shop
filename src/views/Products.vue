@@ -14,16 +14,18 @@
 import axios from 'axios';
 import ProductCard from "@/components/ProductCard.vue";
 
+import json from '../products.json'
+
 export default {
   data () {
     return {
-      products: null
+      products: json
     }
   },
   mounted () {
-    axios
-      .get('http://localhost:1337/Products')
-      .then(response => (this.products = response.data))
+    // axios
+    //   .get('http://localhost:1337/Products')
+    //   .then(response => (this.products = response.data))
   },
   components: {
     ProductCard

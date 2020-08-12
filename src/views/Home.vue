@@ -9,17 +9,18 @@
 import axios from 'axios';
 import FeaturedProducts from "@/components/FeaturedProducts.vue";
 import RecentlyViewedProducts from "@/components/RecentlyViewedProducts.vue";
+import json from '../products.json'
 
 export default {
   data () {
     return {
-      products: null,
+      products: json,
     }
   },
   mounted () {
-    axios
-      .get('http://localhost:1337/Products')
-      .then(response => (this.products = response.data))
+    // axios
+    //   .get('http://localhost:1337/Products')
+    //   .then(response => (this.products = response.data))
   },
   components: {
     FeaturedProducts,

@@ -21,10 +21,10 @@
           </td>
           <td>{{ product.name }}</td>
           <td>{{ product.quantity }}
-            <button :click="increment(product)">Add</button>
-            <button :click="decrement(product)">Remove</button>
+            <button @click="increment(product)">Add</button>
+            <button @click="decrement(product)">Remove</button>
             </td>
-          <td class="text-right">{{ product.price * product.quantity }}</td>
+          <td class="text-right">{{ (product.price * product.quantity).toFixed(2) }}</td>
         </tr>
         <tr>
           <td></td>
@@ -55,16 +55,16 @@
 export default {
   data() {
     return {
-      cart: []
+      // cart: []
     }
   },
   created() {
-    this.getCart();
+    // this.getCart();
   },
   methods: {
-    getCart() {
-      this.cart = JSON.parse(localStorage.getItem("cart"));
-    },
+    // getCart() {
+    //   this.cart = JSON.parse(localStorage.getItem("cart"));
+    // },
     increment(product) {
       this.$store.dispatch('increment', product.id)
     },
@@ -73,9 +73,9 @@ export default {
     },
   },
   computed: {
-    // cart() {
-    //   return console.log(this.$store.state.cart);
-    // },
+    cart() {
+      return this.$store.state.cart;
+    },
     subTotal() {
       return this.cart.reduce((sum, {price, quantity }) => sum + price * quantity, 0)
     },

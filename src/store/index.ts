@@ -9,27 +9,44 @@ export default new Vuex.Store({
   },
   mutations: {
     addToCart (state, product) {
-      state.cart[product.id] = product
+      product.quantity++
+      state.cart.push(product)
+    },
+    removeFromCart (state, productId) {
+      const i = state.cart.map((product: { id: any }) => product.id).indexOf(productId.id);
+      state.cart.splice(i, 1);
     },
     increment (state, productId) {
       state.cart[productId].quantity++
     },
     decrement (state, productId) {
       state.cart[productId].quantity--
-    }
+    },
+
   },
   actions: {
     addToCart (context, product) {
-      context.commit('addToCart', product)
-    },
-    increment (context, productId) {
-      if (this.state.cart[productId]) {
-        context.commit('increment', productId)
+      const key = Object.keys(this.state.cart).find(key => this.state.cart[key].id === product.id);
+      if (!key) {
+        context.commit('addToCart', product)
+      } else {
+        context.commit('increment', key)
       }
     },
+    removeFromCart (context, productId) {
+      const key = Object.keys(this.state.cart).find(key => this.state.cart[key].id === productId)
+      context.commit('removeFromCart', key)
+    },
+    increment (context, productId) {
+      const key = Object.keys(this.state.cart).find(key => this.state.cart[key].id === productId);
+      context.commit('increment', key)
+    },
     decrement (context, productId) {
-      if (this.state.cart[productId]) {
-        context.commit('decrement', productId)
+      const key: any = Object.keys(this.state.cart).find(key => this.state.cart[key].id === productId);
+      if (this.state.cart[key].quantity > 1) {
+        context.commit('decrement', key)
+      } else {
+        context.commit('removeFromCart' , key)
       }
     }
   },

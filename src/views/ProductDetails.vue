@@ -13,12 +13,13 @@
 
 <script>
 import axios from "axios";
+import json from '../products.json'
 
 export default {
   props: ["product_id"],
   data() {
     return {
-      product: null,
+      product: json,
       recentlyViewedProducts: []
     };
   },
@@ -31,13 +32,13 @@ export default {
       }
     }
     axios
-      .get("http://localhost:1337/Products/" + this.product_id)
-      .then((response) => {
-        this.product = response.data;
-        this.$nextTick(() => {
-          this.addRecentlyViewedProduct();
-        });
-      });
+      // .get("http://localhost:1337/Products/" + this.product_id)
+      // .then((response) => {
+      //   this.product = response.data;
+      //   this.$nextTick(() => {
+      //     this.addRecentlyViewedProduct();
+      //   });
+      // });
   },
   methods: {
     addRecentlyViewedProduct() {
