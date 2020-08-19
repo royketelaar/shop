@@ -19,7 +19,7 @@ Vue.use(VueRouter)
     component: () => import('../views/Products.vue')
   },
   {
-    path: '/products/:product_id',
+    path: '/products/:productId',
     name: 'productDetails',
     component: () => import('../views/ProductDetails.vue'),
     props: true

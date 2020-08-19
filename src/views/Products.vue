@@ -11,21 +11,15 @@
 </template>
 
 <script>
-import axios from 'axios';
 import ProductCard from "@/components/ProductCard.vue";
 
-import json from '../products.json'
+import products from '../products.json'
 
 export default {
   data () {
     return {
-      products: json
+      products: products
     }
-  },
-  mounted () {
-    // axios
-    //   .get('http://localhost:1337/Products')
-    //   .then(response => (this.products = response.data))
   },
   components: {
     ProductCard

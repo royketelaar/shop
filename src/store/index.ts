@@ -7,6 +7,11 @@ export default new Vuex.Store({
   state: {
     cart: [] as any
   },
+  getters: {
+    getCartFromLocalStorage (state) {
+      state.cart = JSON.parse(localStorage.getItem("cart") || '{}');
+    }
+  },
   mutations: {
     addToCart (state, product) {
       product.quantity++
@@ -22,7 +27,10 @@ export default new Vuex.Store({
     decrement (state, productId) {
       state.cart[productId].quantity--
     },
-
+    saveCartToLocalStorage (state) {
+      const parsed = JSON.stringify(state.cart);
+      localStorage.setItem("cart", parsed);
+    }
   },
   actions: {
     addToCart (context, product) {
@@ -32,14 +40,17 @@ export default new Vuex.Store({
       } else {
         context.commit('increment', key)
       }
+      context.commit('saveCartToLocalStorage')
     },
     removeFromCart (context, productId) {
       const key = Object.keys(this.state.cart).find(key => this.state.cart[key].id === productId)
       context.commit('removeFromCart', key)
+      context.commit('saveCartToLocalStorage')
     },
     increment (context, productId) {
       const key = Object.keys(this.state.cart).find(key => this.state.cart[key].id === productId);
       context.commit('increment', key)
+      context.commit('saveCartToLocalStorage')
     },
     decrement (context, productId) {
       const key: any = Object.keys(this.state.cart).find(key => this.state.cart[key].id === productId);
@@ -48,6 +59,10 @@ export default new Vuex.Store({
       } else {
         context.commit('removeFromCart' , key)
       }
+      context.commit('saveCartToLocalStorage')
+    },
+    saveCartToLocalStorage (context) {
+      context.commit('saveCartToLocalStorage')
     }
   },
   modules: {

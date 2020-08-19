@@ -1,10 +1,11 @@
 <template>
-  <div class="container mx-auto mt-20" v-if="product">
+  <div class="container mx-auto mt-20" v-if="product.name">
     <h1 class="text-4xl font-bold mb-8">{{ product.name }}</h1>
     <p>{{ product.description }}</p>
     <span class="price text-2xl block pb-4"> € {{ product.price }} </span>
     <img
-      :src="`http://localhost:1337${product.image.formats.medium.url}`"
+      v-if="product.image"
+      :src="require('../assets/images/' + product.image.url)"
       class="mb-2"
       alt=""
     />
@@ -12,16 +13,19 @@
 </template>
 
 <script>
-import axios from "axios";
-import json from '../products.json'
+import products from '../products.json'
 
 export default {
-  props: ["product_id"],
   data() {
     return {
-      product: json,
-      recentlyViewedProducts: []
+      products: products,
+      product: Object,
+      recentlyViewedProducts: [],
+      parsedProductId: Number
     };
+  },
+  props: {
+    productId: [String, Number]
   },
   mounted() {
     if (localStorage.getItem("recentlyViewedProducts")) {
@@ -31,14 +35,9 @@ export default {
         localStorage.removeItem("recentlyViewedProducts");
       }
     }
-    axios
-      // .get("http://localhost:1337/Products/" + this.product_id)
-      // .then((response) => {
-      //   this.product = response.data;
-      //   this.$nextTick(() => {
-      //     this.addRecentlyViewedProduct();
-      //   });
-      // });
+    this.parsedProductId = parseInt(this.productId)
+    const productKey = Object.keys(this.products).find(key => this.products[key].id === this.parsedProductId);
+    this.product = this.products[productKey]
   },
   methods: {
     addRecentlyViewedProduct() {

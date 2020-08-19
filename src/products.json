@@ -23,7 +23,7 @@
           "height": 156,
           "size": 8.73,
           "path": null,
-          "url": "/uploads/thumbnail_apple_3b2c6e2a5f.jpeg"
+          "url": "thumbnail_apple_3b2c6e2a5f.jpeg"
         },
         "large": {
           "hash": "large_apple_3b2c6e2a5f",
@@ -33,7 +33,7 @@
           "height": 667,
           "size": 75.01,
           "path": null,
-          "url": "/uploads/large_apple_3b2c6e2a5f.jpeg"
+          "url": "large_apple_3b2c6e2a5f.jpeg"
         },
         "medium": {
           "hash": "medium_apple_3b2c6e2a5f",
@@ -43,7 +43,7 @@
           "height": 500,
           "size": 49.73,
           "path": null,
-          "url": "/uploads/medium_apple_3b2c6e2a5f.jpeg"
+          "url": "medium_apple_3b2c6e2a5f.jpeg"
         },
         "small": {
           "hash": "small_apple_3b2c6e2a5f",
@@ -53,14 +53,14 @@
           "height": 333,
           "size": 27.31,
           "path": null,
-          "url": "/uploads/small_apple_3b2c6e2a5f.jpeg"
+          "url": "small_apple_3b2c6e2a5f.jpeg"
         }
       },
       "hash": "apple_3b2c6e2a5f",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 2835.72,
-      "url": "/uploads/apple_3b2c6e2a5f.jpeg",
+      "url": "apple_3b2c6e2a5f.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -92,7 +92,7 @@
           "height": 156,
           "size": 6.76,
           "path": null,
-          "url": "/uploads/thumbnail_watermelon_60cd913a2a.jpeg"
+          "url": "thumbnail_watermelon_60cd913a2a.jpeg"
         },
         "large": {
           "hash": "large_watermelon_60cd913a2a",
@@ -102,7 +102,7 @@
           "height": 1000,
           "size": 143.07,
           "path": null,
-          "url": "/uploads/large_watermelon_60cd913a2a.jpeg"
+          "url": "large_watermelon_60cd913a2a.jpeg"
         },
         "medium": {
           "hash": "medium_watermelon_60cd913a2a",
@@ -112,7 +112,7 @@
           "height": 750,
           "size": 89.92,
           "path": null,
-          "url": "/uploads/medium_watermelon_60cd913a2a.jpeg"
+          "url": "medium_watermelon_60cd913a2a.jpeg"
         },
         "small": {
           "hash": "small_watermelon_60cd913a2a",
@@ -122,14 +122,14 @@
           "height": 500,
           "size": 46.55,
           "path": null,
-          "url": "/uploads/small_watermelon_60cd913a2a.jpeg"
+          "url": "small_watermelon_60cd913a2a.jpeg"
         }
       },
       "hash": "watermelon_60cd913a2a",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 2324.18,
-      "url": "/uploads/watermelon_60cd913a2a.jpeg",
+      "url": "watermelon_60cd913a2a.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -161,7 +161,7 @@
           "height": 156,
           "size": 9.34,
           "path": null,
-          "url": "/uploads/thumbnail_lemon_789ed6e241.jpeg"
+          "url": "thumbnail_lemon_789ed6e241.jpeg"
         },
         "large": {
           "hash": "large_lemon_789ed6e241",
@@ -171,7 +171,7 @@
           "height": 667,
           "size": 98.39,
           "path": null,
-          "url": "/uploads/large_lemon_789ed6e241.jpeg"
+          "url": "large_lemon_789ed6e241.jpeg"
         },
         "medium": {
           "hash": "medium_lemon_789ed6e241",
@@ -181,7 +181,7 @@
           "height": 500,
           "size": 62.38,
           "path": null,
-          "url": "/uploads/medium_lemon_789ed6e241.jpeg"
+          "url": "medium_lemon_789ed6e241.jpeg"
         },
         "small": {
           "hash": "small_lemon_789ed6e241",
@@ -191,14 +191,14 @@
           "height": 333,
           "size": 32.52,
           "path": null,
-          "url": "/uploads/small_lemon_789ed6e241.jpeg"
+          "url": "small_lemon_789ed6e241.jpeg"
         }
       },
       "hash": "lemon_789ed6e241",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 1578.23,
-      "url": "/uploads/lemon_789ed6e241.jpeg",
+      "url": "lemon_789ed6e241.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -230,7 +230,7 @@
           "height": 156,
           "size": 3.24,
           "path": null,
-          "url": "/uploads/thumbnail_pineapple_e5a678a5bd.jpeg"
+          "url": "thumbnail_pineapple_e5a678a5bd.jpeg"
         },
         "large": {
           "hash": "large_pineapple_e5a678a5bd",
@@ -240,7 +240,7 @@
           "height": 1000,
           "size": 62.07,
           "path": null,
-          "url": "/uploads/large_pineapple_e5a678a5bd.jpeg"
+          "url": "large_pineapple_e5a678a5bd.jpeg"
         },
         "medium": {
           "hash": "medium_pineapple_e5a678a5bd",
@@ -250,7 +250,7 @@
           "height": 750,
           "size": 39.32,
           "path": null,
-          "url": "/uploads/medium_pineapple_e5a678a5bd.jpeg"
+          "url": "medium_pineapple_e5a678a5bd.jpeg"
         },
         "small": {
           "hash": "small_pineapple_e5a678a5bd",
@@ -260,14 +260,14 @@
           "height": 500,
           "size": 19.8,
           "path": null,
-          "url": "/uploads/small_pineapple_e5a678a5bd.jpeg"
+          "url": "small_pineapple_e5a678a5bd.jpeg"
         }
       },
       "hash": "pineapple_e5a678a5bd",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 637.7,
-      "url": "/uploads/pineapple_e5a678a5bd.jpeg",
+      "url": "pineapple_e5a678a5bd.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -299,7 +299,7 @@
           "height": 156,
           "size": 2.81,
           "path": null,
-          "url": "/uploads/thumbnail_mandarin_efbe65fc70.jpeg"
+          "url": "thumbnail_mandarin_efbe65fc70.jpeg"
         },
         "large": {
           "hash": "large_mandarin_efbe65fc70",
@@ -309,7 +309,7 @@
           "height": 1000,
           "size": 49.94,
           "path": null,
-          "url": "/uploads/large_mandarin_efbe65fc70.jpeg"
+          "url": "large_mandarin_efbe65fc70.jpeg"
         },
         "medium": {
           "hash": "medium_mandarin_efbe65fc70",
@@ -319,7 +319,7 @@
           "height": 750,
           "size": 31.46,
           "path": null,
-          "url": "/uploads/medium_mandarin_efbe65fc70.jpeg"
+          "url": "medium_mandarin_efbe65fc70.jpeg"
         },
         "small": {
           "hash": "small_mandarin_efbe65fc70",
@@ -329,14 +329,14 @@
           "height": 500,
           "size": 16.07,
           "path": null,
-          "url": "/uploads/small_mandarin_efbe65fc70.jpeg"
+          "url": "small_mandarin_efbe65fc70.jpeg"
         }
       },
       "hash": "mandarin_efbe65fc70",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 753.35,
-      "url": "/uploads/mandarin_efbe65fc70.jpeg",
+      "url": "mandarin_efbe65fc70.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -368,7 +368,7 @@
           "height": 156,
           "size": 4.97,
           "path": null,
-          "url": "/uploads/thumbnail_orange_3c9168bd56.jpeg"
+          "url": "thumbnail_orange_3c9168bd56.jpeg"
         },
         "large": {
           "hash": "large_orange_3c9168bd56",
@@ -378,7 +378,7 @@
           "height": 1000,
           "size": 112.04,
           "path": null,
-          "url": "/uploads/large_orange_3c9168bd56.jpeg"
+          "url": "large_orange_3c9168bd56.jpeg"
         },
         "medium": {
           "hash": "medium_orange_3c9168bd56",
@@ -388,7 +388,7 @@
           "height": 750,
           "size": 69.64,
           "path": null,
-          "url": "/uploads/medium_orange_3c9168bd56.jpeg"
+          "url": "medium_orange_3c9168bd56.jpeg"
         },
         "small": {
           "hash": "small_orange_3c9168bd56",
@@ -398,14 +398,14 @@
           "height": 500,
           "size": 34.64,
           "path": null,
-          "url": "/uploads/small_orange_3c9168bd56.jpeg"
+          "url": "small_orange_3c9168bd56.jpeg"
         }
       },
       "hash": "orange_3c9168bd56",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 672.62,
-      "url": "/uploads/orange_3c9168bd56.jpeg",
+      "url": "orange_3c9168bd56.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -437,7 +437,7 @@
           "height": 156,
           "size": 11.15,
           "path": null,
-          "url": "/uploads/thumbnail_feijoa_7298596933.jpeg"
+          "url": "thumbnail_feijoa_7298596933.jpeg"
         },
         "large": {
           "hash": "large_feijoa_7298596933",
@@ -447,7 +447,7 @@
           "height": 750,
           "size": 149.61,
           "path": null,
-          "url": "/uploads/large_feijoa_7298596933.jpeg"
+          "url": "large_feijoa_7298596933.jpeg"
         },
         "medium": {
           "hash": "medium_feijoa_7298596933",
@@ -457,7 +457,7 @@
           "height": 563,
           "size": 96.1,
           "path": null,
-          "url": "/uploads/medium_feijoa_7298596933.jpeg"
+          "url": "medium_feijoa_7298596933.jpeg"
         },
         "small": {
           "hash": "small_feijoa_7298596933",
@@ -467,14 +467,14 @@
           "height": 375,
           "size": 48.19,
           "path": null,
-          "url": "/uploads/small_feijoa_7298596933.jpeg"
+          "url": "small_feijoa_7298596933.jpeg"
         }
       },
       "hash": "feijoa_7298596933",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 2165.37,
-      "url": "/uploads/feijoa_7298596933.jpeg",
+      "url": "feijoa_7298596933.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -506,7 +506,7 @@
           "height": 156,
           "size": 2.81,
           "path": null,
-          "url": "/uploads/thumbnail_guava_12895cb7cc.jpeg"
+          "url": "thumbnail_guava_12895cb7cc.jpeg"
         },
         "large": {
           "hash": "large_guava_12895cb7cc",
@@ -516,7 +516,7 @@
           "height": 667,
           "size": 26.42,
           "path": null,
-          "url": "/uploads/large_guava_12895cb7cc.jpeg"
+          "url": "large_guava_12895cb7cc.jpeg"
         },
         "medium": {
           "hash": "medium_guava_12895cb7cc",
@@ -526,7 +526,7 @@
           "height": 500,
           "size": 16.09,
           "path": null,
-          "url": "/uploads/medium_guava_12895cb7cc.jpeg"
+          "url": "medium_guava_12895cb7cc.jpeg"
         },
         "small": {
           "hash": "small_guava_12895cb7cc",
@@ -536,14 +536,14 @@
           "height": 333,
           "size": 8.47,
           "path": null,
-          "url": "/uploads/small_guava_12895cb7cc.jpeg"
+          "url": "small_guava_12895cb7cc.jpeg"
         }
       },
       "hash": "guava_12895cb7cc",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 608.32,
-      "url": "/uploads/guava_12895cb7cc.jpeg",
+      "url": "guava_12895cb7cc.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -575,7 +575,7 @@
           "height": 151,
           "size": 1.96,
           "path": null,
-          "url": "/uploads/thumbnail_banana_beba5da423.jpeg"
+          "url": "thumbnail_banana_beba5da423.jpeg"
         },
         "large": {
           "hash": "large_banana_beba5da423",
@@ -585,7 +585,7 @@
           "height": 618,
           "size": 11.97,
           "path": null,
-          "url": "/uploads/large_banana_beba5da423.jpeg"
+          "url": "large_banana_beba5da423.jpeg"
         },
         "medium": {
           "hash": "medium_banana_beba5da423",
@@ -595,7 +595,7 @@
           "height": 464,
           "size": 8.04,
           "path": null,
-          "url": "/uploads/medium_banana_beba5da423.jpeg"
+          "url": "medium_banana_beba5da423.jpeg"
         },
         "small": {
           "hash": "small_banana_beba5da423",
@@ -605,14 +605,14 @@
           "height": 309,
           "size": 4.66,
           "path": null,
-          "url": "/uploads/small_banana_beba5da423.jpeg"
+          "url": "small_banana_beba5da423.jpeg"
         }
       },
       "hash": "banana_beba5da423",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 260.79,
-      "url": "/uploads/banana_beba5da423.jpeg",
+      "url": "banana_beba5da423.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -644,7 +644,7 @@
           "height": 156,
           "size": 6.14,
           "path": null,
-          "url": "/uploads/thumbnail_kiwi_4ceb917ebc.jpeg"
+          "url": "thumbnail_kiwi_4ceb917ebc.jpeg"
         },
         "large": {
           "hash": "large_kiwi_4ceb917ebc",
@@ -654,7 +654,7 @@
           "height": 667,
           "size": 93.53,
           "path": null,
-          "url": "/uploads/large_kiwi_4ceb917ebc.jpeg"
+          "url": "large_kiwi_4ceb917ebc.jpeg"
         },
         "medium": {
           "hash": "medium_kiwi_4ceb917ebc",
@@ -664,7 +664,7 @@
           "height": 500,
           "size": 52.49,
           "path": null,
-          "url": "/uploads/medium_kiwi_4ceb917ebc.jpeg"
+          "url": "medium_kiwi_4ceb917ebc.jpeg"
         },
         "small": {
           "hash": "small_kiwi_4ceb917ebc",
@@ -674,14 +674,14 @@
           "height": 333,
           "size": 24.36,
           "path": null,
-          "url": "/uploads/small_kiwi_4ceb917ebc.jpeg"
+          "url": "small_kiwi_4ceb917ebc.jpeg"
         }
       },
       "hash": "kiwi_4ceb917ebc",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 1129.58,
-      "url": "/uploads/kiwi_4ceb917ebc.jpeg",
+      "url": "kiwi_4ceb917ebc.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -713,7 +713,7 @@
           "height": 156,
           "size": 12.64,
           "path": null,
-          "url": "/uploads/thumbnail_blackberry_546187b821.jpeg"
+          "url": "thumbnail_blackberry_546187b821.jpeg"
         },
         "large": {
           "hash": "large_blackberry_546187b821",
@@ -723,7 +723,7 @@
           "height": 665,
           "size": 144.11,
           "path": null,
-          "url": "/uploads/large_blackberry_546187b821.jpeg"
+          "url": "large_blackberry_546187b821.jpeg"
         },
         "medium": {
           "hash": "medium_blackberry_546187b821",
@@ -733,7 +733,7 @@
           "height": 499,
           "size": 90.25,
           "path": null,
-          "url": "/uploads/medium_blackberry_546187b821.jpeg"
+          "url": "medium_blackberry_546187b821.jpeg"
         },
         "small": {
           "hash": "small_blackberry_546187b821",
@@ -743,14 +743,14 @@
           "height": 332,
           "size": 46.4,
           "path": null,
-          "url": "/uploads/small_blackberry_546187b821.jpeg"
+          "url": "small_blackberry_546187b821.jpeg"
         }
       },
       "hash": "blackberry_546187b821",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 787.23,
-      "url": "/uploads/blackberry_546187b821.jpeg",
+      "url": "blackberry_546187b821.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
@@ -782,7 +782,7 @@
           "height": 156,
           "size": 6.97,
           "path": null,
-          "url": "/uploads/thumbnail_avocado_35a73df215.jpeg"
+          "url": "thumbnail_avocado_35a73df215.jpeg"
         },
         "large": {
           "hash": "large_avocado_35a73df215",
@@ -792,7 +792,7 @@
           "height": 667,
           "size": 67.49,
           "path": null,
-          "url": "/uploads/large_avocado_35a73df215.jpeg"
+          "url": "large_avocado_35a73df215.jpeg"
         },
         "medium": {
           "hash": "medium_avocado_35a73df215",
@@ -802,7 +802,7 @@
           "height": 500,
           "size": 41.66,
           "path": null,
-          "url": "/uploads/medium_avocado_35a73df215.jpeg"
+          "url": "medium_avocado_35a73df215.jpeg"
         },
         "small": {
           "hash": "small_avocado_35a73df215",
@@ -812,14 +812,14 @@
           "height": 333,
           "size": 21.65,
           "path": null,
-          "url": "/uploads/small_avocado_35a73df215.jpeg"
+          "url": "small_avocado_35a73df215.jpeg"
         }
       },
       "hash": "avocado_35a73df215",
       "ext": ".jpeg",
       "mime": "image/jpeg",
       "size": 530.93,
-      "url": "/uploads/avocado_35a73df215.jpeg",
+      "url": "avocado_35a73df215.jpeg",
       "previewUrl": null,
       "provider": "local",
       "provider_metadata": null,
