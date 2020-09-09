@@ -14,16 +14,17 @@
         <tr v-for="product in cart" :key="product.id">
           <td>
             <img
-              :src="`http://localhost:1337${product.image.formats.medium.url}`"
+              :src="require('../assets/images/' + product.image.formats.small.url)"
               class=""
               alt=""
             />
           </td>
           <td>{{ product.name }}</td>
           <td>{{ product.quantity }}
-            <button @click="increment(product)">Add</button>
-            <button @click="decrement(product)">Remove</button>
-            </td>
+            <button class="text-3xl" @click="increment(product)">+</button>
+            <button class="text-3xl" @click="decrement(product)">-</button>
+            <button class="text-red-500" @click="removeFromCart(product)">Remove</button>
+          </td>
           <td class="text-right">{{ (product.price * product.quantity).toFixed(2) }}</td>
         </tr>
         <tr>
@@ -53,24 +54,16 @@
 <script>
 
 export default {
-  data() {
-    return {
-      // cart: []
-    }
-  },
-  created() {
-    // this.getCart();
-  },
   methods: {
-    // getCart() {
-    //   this.cart = JSON.parse(localStorage.getItem("cart"));
-    // },
     increment(product) {
       this.$store.dispatch('increment', product.id)
     },
     decrement(product) {
       this.$store.dispatch('decrement', product.id)
     },
+    removeFromCart(product) {
+      this.$store.dispatch('removeFromCart', product.id)
+    }
   },
   computed: {
     cart() {
