@@ -1,6 +1,6 @@
 <template>
   <div class="cart-modal absolute top-0 right-0 mr-6 pb-3 mt-16 shadow bg-white rounded">
-    <div class="products mb-4">
+    <div class="products mb-4" v-if="cart.length">
       <div class="product flex justify-between items-center" v-for="product in cart" :key="product.id">
         <img
           :src="require('../assets/images/' + product.image.formats.small.url)"
@@ -8,12 +8,13 @@
           alt=""
         />
         <span class="name font-bold">{{ product.name }}</span>
-        <button class="text-3xl mr-1" @click="increment(product)">+</button>
         <button class="text-3xl mr-5" @click="decrement(product)">-</button>
+        <button class="text-3xl mr-1" @click="increment(product)">+</button>
         <span class="mr-4">{{ product.quantity }}</span>
       </div>
     </div>
-    <router-link to="/cart" class="px-4 py-2 bg-green-600 text-white rounded float-right mr-3">Go to cart</router-link>
+    <div class="mb-4 p-4 text-lg" v-if="!cart.length">There are no products, please add some first.</div>
+    <router-link to="/cart" class="px-4 py-2 bg-teal-700 text-white rounded float-right mr-3">Go to cart</router-link>
   </div>
 </template>
 

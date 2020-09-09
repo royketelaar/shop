@@ -5,7 +5,7 @@
       <div
         v-for="product in recentlyViewedProducts"
         :key="product.id"
-        class="shop-item shadow hover:shadow-lg transition cursor-pointer w-1/5 mx-4"
+        class="shop-item shadow hover:shadow-lg transition cursor-pointer w-1/4 mx-4"
       >
         <product-card :product="product" />
       </div>
@@ -43,7 +43,7 @@ export default {
 <style lang="scss">
   .recently-viewed {
     img {
-      height: 220px !important;
+      height: 265px !important;
     }
   }
 </style>

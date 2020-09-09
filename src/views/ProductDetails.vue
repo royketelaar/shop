@@ -38,6 +38,7 @@ export default {
     this.parsedProductId = parseInt(this.productId)
     const productKey = Object.keys(this.products).find(key => this.products[key].id === this.parsedProductId);
     this.product = this.products[productKey]
+    this.addRecentlyViewedProduct()
   },
   methods: {
     addRecentlyViewedProduct() {
@@ -49,8 +50,8 @@ export default {
       });
       if (!exists) {
         this.recentlyViewedProducts.push(this.product);
-        if (this.recentlyViewedProducts.length > 5) {
-          this.recentlyViewedProducts = this.recentlyViewedProducts.slice(-5);
+        if (this.recentlyViewedProducts.length > 4) {
+          this.recentlyViewedProducts = this.recentlyViewedProducts.slice(-4);
         }
         this.saveRecentlyViewedProducts();
       }
